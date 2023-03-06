@@ -9,7 +9,7 @@ export default function Home() {
         <h1>PIAIC WEBSITE</h1>
     </div>
     <div>
-        <h1>Hello World!</h1>
+        <h1>Hello World! 123</h1>
     </div>
 
   </>
