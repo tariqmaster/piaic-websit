@@ -1,12 +1,17 @@
+import Header from '../header';
+
 
 export default function Contact(){
     
     return(
         <>
-        <div>
+        <main className='main'>
+        <Header />
+        <div className="text-3xl font-bold underline">
             Contact us
         </div>
         
+        </main>
         </>
     )
 }

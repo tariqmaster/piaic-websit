@@ -1,0 +1,16 @@
+import Header from "@/app/header";
+import Footer from "@/app/footer";
+
+export default function Cnc(){
+    return(
+        <main>
+
+        <Header />
+        <Footer />
+
+        </main>
+
+
+        
+    )
+}

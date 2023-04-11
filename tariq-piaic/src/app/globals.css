@@ -1,0 +1,118 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-700;
+  }
+}
+
+@layer components{
+
+    /* .container{
+      @apply  bg-green-300 p-6 max-w-none w-auto;
+    } */
+    .container {
+      @apply max-w-7xl mx-auto;
+    }
+    .wrapper {
+      @apply flex flex-wrap justify-between items-center font-sans bg-purple-200;
+    }
+    .maindiv {
+      @apply  grid grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] py-5 px-5
+    }
+    .menu {
+      @apply bg-white p-4 rounded-full;
+    }
+    .header {
+      @apply bg-white p-10;
+    }
+
+    .body22{
+      @apply bg-blue-900 flex justify-center items-center;
+    }
+    .body22 h2 {
+      @apply m-10 font-bold text-yellow-100 text-4xl;
+    }
+    .body22 image{
+      @apply w-full;
+    }
+    .body1 {
+      @apply bg-white;
+    }
+    .body1 h2{
+      @apply  my-6 mx-6 text-xl font-bold;
+    }
+    .body1 p{
+      @apply my-6 mx-6 text-justify text-sm text-black;
+    }
+/* CARDS CSS */
+    .item {
+      @apply bg-white rounded-lg;
+    }
+    .item img {
+      @apply w-full px-5 h-80 object-cover rounded-t-lg;
+    }
+    .item > div {
+      @apply p-6;
+    }
+    .item h2{
+      @apply font-bold text-2xl text-black;
+    }
+    .item p {
+      @apply mt-4 mb-3 text-black;
+    }
+    .card {
+      @apply bg-white rounded-lg;
+    }
+    .card img {
+      @apply w-full px-5 max-h-80 object-cover rounded-t-lg;
+    }
+    .card > div {
+      @apply p-6;
+    }
+    .card h2{
+      @apply font-bold text-2xl text-black;
+    }
+    .card p {
+      @apply mt-4 mb-3 text-black;
+    }
+    a {
+      @apply text-lg font-bold;
+    }
+    a.active {
+      @apply bg-blue-500 text-white;
+    }
+      
+
+
+  footer {
+    @apply bg-blend-darken px-5;
+    min-width: 20rem;
+  }
+  .footer-col:not(:last-child) {
+    @apply mr-20;
+  }
+  p {
+    @apply mt-2 text-gray-500 text-sm;
+  }
+  h3 {
+    @apply font-bold text-xl text-sky-800;
+  }
+  ul li {
+    @apply w-20 h-1 bg-gray-300 mt-6;
+  }
+  .btn {
+    @apply bg-blue-500 text-white py-2 px-5 rounded-full;
+  }
+  .icon {
+    @apply mx-2 w-12 h-12 bg-gray-700 text-white rounded-full;
+  }
+  .icon i.fa {
+    @apply text-2xl;
+  }
+}
+
