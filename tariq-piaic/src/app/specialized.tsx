@@ -9,24 +9,25 @@ export default function Specialized() {
       
      
       <div className="item text-black justify-center items-center px-5 py-5 border-black">
-        <h2>Specialized Tracks:</h2>
+        <a href="../courses/#speicialized-courses"><h2>Specialized Tracks:</h2></a>
         <p className="text-2xl text-justify">
         After completing the first thre
         e quarters the participants will select one or more specializations consisting of two courses each.</p>
           <h3></h3>
           <p></p>        
-        <a href="#">Read more</a>
+        <a href="../courses/#speicialized-courses">Read more</a>
       </div>
 
  {/* Second div */}
       <div className="body1">
-        <figure>
+      <a href="../courses/#speicialized-courses"><figure>
           <Image
             className="grid col-start-1 col-end-1 row-start-1 row-end-1 rounded-lg px-5 py-5"
             src={splpic}
             alt=""
           />
         </figure>
+        </a>
       </div>
     </div>
   );

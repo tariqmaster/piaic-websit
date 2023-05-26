@@ -3,17 +3,14 @@
 
 import Image from "next/image";
 import logo from "../../public/red-p-logo-text_dao_croped.png";
-import { Fragment, useState } from 'react'
-// import { Listbox, Transition } from '@headlessui/react'
-// import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
+import { Fragment, useState, useRef, useEffect } from 'react'
 
-const people = [
-  { name: 'Wade Cooper' },
-  { name: 'Arlene Mccoy' },
-  { name: 'Devon Webb' },
-  { name: 'Tom Cook' },
-  { name: 'Tanya Fox' },
-  { name: 'Hellen Schmidt' },
+
+
+
+
+const people= [
+    {name: 'Muhammad Tariq'}
 ]
 
 
@@ -44,8 +41,9 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-medium my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     About
                 </a>
-                <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Contact
+
+                <a className="text-xl font-normal my-4" href="/form" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    REGISTERATION FORM
                 </a>
             </div>  
         </div>
@@ -58,11 +56,14 @@ export default function Navbar() {
     const [selected, setSelected] = useState(people[0])
 
     return (
-        <nav className="flex filter drop-shadow-md bg-white px-4 py-4 h-20 items-center">
+        <>
+                <nav className="fixed z-10 opacity-80 w-full flex filter drop-shadow-md bg-white px-4 py-4 h-20 p-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="p-5 w-3/12 flex items-center">
                 <a className="text-2xl font-semibold" href="/"><Image className='h-10 w-20' src={logo} alt="" /></a>
             </div>
+
+
             <div className="w-9/12 flex justify-end items-center">
 
                 <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden" onClick={() => {
@@ -80,15 +81,20 @@ export default function Navbar() {
                     </NavLink>
                     <NavLink to="/courses">
                         COURSES
-                    </NavLink>                    
-                    <NavLink to="/contact">
-                        CONTACT
                     </NavLink>
-                    <NavLink to="/about">
+                       <NavLink to="/about">
                         ABOUT
+                    </NavLink>
+                    <NavLink to="/form">
+                        REGISTERATION FORM
                     </NavLink>
                 </div>
             </div>
         </nav>
+        <div className="py-10">
+
+        </div>
+        </>
+       
     )
 }

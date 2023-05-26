@@ -1,17 +1,14 @@
-import Header from '../header';
 
+import Footer from "@/app/footer";
+import Navbar from "@/app/navbar";
 
-export default function Contact(){
-    
-    return(
-        <>
-        <main className='main'>
-        <Header />
-        <div className="text-3xl font-bold underline">
-            Contact us
-        </div>
-        
-        </main>
-        </>
-    )
+export default function Ai() {
+  return (
+    <main>
+      <Navbar />
+
+      <div className="bg-red-400">Contact Us Page</div>
+      <Footer />
+    </main>
+  );
 }

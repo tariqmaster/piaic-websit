@@ -6,15 +6,13 @@
 
 @layer base {
   body {
-    @apply text-gray-700;
+    @apply text-black;
   }
 }
 
 @layer components{
 
-    /* .container{
-      @apply  bg-green-300 p-6 max-w-none w-auto;
-    } */
+
     .container {
       @apply max-w-7xl mx-auto;
     }
@@ -28,7 +26,7 @@
       @apply bg-white p-4 rounded-full;
     }
     .header {
-      @apply bg-white p-10;
+      @apply bg-slate-400 p-10;
     }
 
     .body22{
@@ -114,5 +112,24 @@
   .icon i.fa {
     @apply text-2xl;
   }
-}
 
+/*.course-outline CSS*/
+.course-outline{
+  @apply text-black;
+}
+.course-outline h1{
+  @apply text-2xl text-blue-900;
+}
+.course-outline h2{
+  @apply text-2xl;
+}
+.course-outline h3{
+  @apply text-xl text-black font-normal;
+}
+.course-outline a{
+  @apply text-blue-600 text-xs font-thin;
+}
+.course-outline p{
+  @apply text-gray-800;
+}
+}

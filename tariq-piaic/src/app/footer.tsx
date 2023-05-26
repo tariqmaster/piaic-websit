@@ -9,7 +9,7 @@ export default function Footer(){
           {/* First Column */}
   <div className=" text-white text-lg">
     <Image width={100} height={150} src={logo} alt="panaverse logo" /><a  href="/#" className="text-white text-bold">Panaverse Dao</a>
-    <p className="text-slate-300 text-justify"><b>The web-3.0 company</b><br/>
+    <p className="text-slate-300 text-justify gap-10"><b>The web-3.0 company</b><br/>
     The Future of the Web is Web 3.0, Metaverse, and Edge Computing.
      Panaverse DAO is a movement to spread these technolgies globally. 
      It is community of Web 3 and Metaverse developers, designers, 
@@ -30,52 +30,58 @@ export default function Footer(){
   </div>
   {/* Second Column */}
   <div>
-  <div className="">
+  <div className="px-5 py-5">
   <p>
-      <a href="./" className=" text-lg text-white hover:text-blue-500">Courses:</a><br/><br/>
-      <a href="./" className="text-slate-300 hover:text-blue-500">Web 3.0 (Blockchain) and Metaverse Specialization</a><br/>
-      <a href="./" className="text-slate-300 hover:text-blue-500">Artificial Intelligence and Deep Learning Specialization</a><br/>
-      <a href="./" className="text-slate-300 hover:text-blue-500">Cloud-Native Computing Specialization</a><br/>
-      <a href="./" className="text-slate-300 hover:text-blue-500">Ambient Computing and IoT Specialization</a><br/>
-      <a href="./" className="text-slate-300 hover:text-blue-500">Genomics and Bioinformatics Specialization</a>
-      <br/><br/><br/><br/>
+      <a href="/courses/core-course" className=" text-lg text-white hover:text-blue-500">Courses:</a><br/><br/>
+      <a href="/courses/web3" className="text-sm text-slate-300 hover:text-blue-500">Web 3.0 (Blockchain) and Metaverse Specialization</a><br/>
+      <a href="/courses/ai" className="text-sm text-slate-300 hover:text-blue-500">Artificial Intelligence and Deep Learning Specialization</a><br/>
+      <a href="/courses/cnc" className="text-sm text-slate-300 hover:text-blue-500">Cloud-Native Computing Specialization</a><br/>
+      <a href="/courses/iot" className="text-sm text-slate-300 hover:text-blue-500">Ambient Computing and IoT Specialization</a><br/>
+      <a href="/courses/bio" className="text-sm text-slate-300 hover:text-blue-500">Genomics and Bioinformatics Specialization</a>
+      <br/><br/>
       </p> 
   </div>
-  <div className="">
-  <a href="./" className="text-white text-xl hover:text-blue-500">Join us:</a><br/>
-  <a href="./" className="ml-auto">
+
+  <div className="px-5">
+    <a href="./" className="text-white text-lg hover:text-blue-500">Support</a><br/>
+    <p>
+      <a href="./" className="text-slate-300 hover:text-blue-500 text-sm">Privacy policy</a><br/>
+      <a href="./" className="text-slate-300 hover:text-blue-500 text-sm">Terms of service</a><br/>
+      <a href="./" className="text-slate-300 hover:text-blue-500 text-sm">Help desk</a><br/>
+      <a href="./" className="text-slate-300 hover:text-blue-500 text-sm">Legal</a><br/>
+      <a href="./" className="text-slate-300 hover:text-blue-500 text-sm">Instructions</a><br/>
+      </p>
+  </div>
+   
+  </div>
+  {/* Third Column */}
+  <div>
+  <div className="px-10 py-5">
+  <a href="/form" className="text-white text-xl hover:text-blue-500">Join us:</a><br/>
+  <a href="/form" className="ml-auto">
         <button className="items-center px-3 bg-gray-200 font-[poppins] font-bold duration-500 hover:bg-cyan-400 rounded">
         Get started
         </button>
       </a>
   </div>
-  </div>
-  {/* Third Column */}
-  <div>
-  <div className="">
-    <a href="./" className="text-white text-xl hover:text-blue-500">Support</a><br/>
-    <p>
-      <a href="./" className="text-slate-300 hover:text-blue-500">Privacy policy</a><br/>
-      <a href="./" className="text-slate-300 hover:text-blue-500">Terms of service</a><br/>
-      <a href="./" className="text-slate-300 hover:text-blue-500">Help desk</a><br/>
-      <a href="./" className="text-slate-300 hover:text-blue-500">Legal</a><br/>
-      <a href="./" className="text-slate-300 hover:text-blue-500">Instructions</a><br/>
-      </p>
-  </div>
-  </div>
-  {/* Fourth Column */}
 
-<div className="">
-  <div className=" bg-blue-500 rounded-lg px-10 order-last">
-  <p className="text-black font-bold flex items-start justify-center"><br/>© Copyright and Design by <br/>Muhammad Tariq PIAIC-136132</p>
+
+<div className="px-10 py-5">
+  <div className=" bg-blue-500 rounded-lg px-10 content-center">
+  <p className="text-black font-bold flex items-start justify-center py-5">© Copyright and Design by <br/>Muhammad Tariq PIAIC-136132</p>
 
   </div>
-  <h2><br/></h2>
-  <div className="gap-5  p-3 bg-blue-200 rounded-lg order-last">
+  <div className="py-5">
+
+  </div>
+  <div className="gapy-5 content-center bg-blue-200 rounded-lg order-last px-10 p-5">
   <p className="text-black font-bold">Mobile # +92-300-2229256<br/>
   House # L-13 sector 11-L, North Karachi, Karachi, Pakistan.</p>
 
  </div>
+  </div>
+  {/* Fourth Column */}
+
  </div>
 </footer>
 
