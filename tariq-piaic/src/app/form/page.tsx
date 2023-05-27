@@ -7,7 +7,8 @@ import Footer from '../footer';
 
 interface IInput {
     email: string;
-    password: string
+    password: string;
+    CNIC: number;
 }
 
 const Form = () => {
@@ -76,6 +77,19 @@ const Form = () => {
                         placeholder="Enter your password" />
                     {errors.password && errors.password.type === "required" && (
                         <p className="text-red-500">{errors.password.message as string}</p>
+                    )}
+                </div>
+
+                <div className='flex flex-col'>
+                    <label htmlFor="CNIC">CNIC Number</label>
+                    <input type="CNIC"
+                        className="border py-2 px-4 rounded"
+                        {...register("CNIC", {
+                            required: "CNIC is required" // You can write error message or just set it to true
+                        })}
+                        placeholder="Enter your CNIC" />
+                    {errors.CNIC && errors.CNIC.type === "required" && (
+                        <p className="text-red-500">{errors.CNIC.message as string}</p>
                     )}
                 </div>
 
