@@ -48,7 +48,7 @@ Kubernetes is an open-source system for automating the deployment, scaling, and 
            
             <div className="px-5">
               <figure>
-                <Image
+                <img
                   className="w-full"
                   src="https://images.unsplash.com/photo-1667372459567-3853510dd5ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
                   alt="pic loading"
