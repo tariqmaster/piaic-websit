@@ -33,7 +33,7 @@ export default function Bio() {
 
           <div className="px-5 py-5">
             <figure>
-              <Image
+              <img
                 className="w-full"
                 src="https://media.istockphoto.com/id/1413071933/photo/purple-dna.jpg?s=612x612&w=0&k=20&c=IOXTB0fXVaxhuUvs3iYYRFjIya1y-mOgKvLUzyvhhVM="
                 alt="pic loading"
@@ -69,7 +69,7 @@ export default function Bio() {
             </div>
             <div className="px-5 py-5">
               <figure>
-                <Image
+                <img
                   className="w-full"
                   src="https://media.istockphoto.com/id/1224202684/photo/multi-ethnic-research-team-studying-dna-mutations-female-doctor-in-foreground.jpg?s=612x612&w=0&k=20&c=bzDiXguo3h0bNmkdP1bjkuUsH2ino8J4sAIggRNAyxU="
                   alt="pic loading"

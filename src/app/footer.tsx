@@ -38,6 +38,7 @@ export default function Footer(){
       <a href="/courses/cnc" className="text-sm text-slate-300 hover:text-blue-500">Cloud-Native Computing Specialization</a><br/>
       <a href="/courses/iot" className="text-sm text-slate-300 hover:text-blue-500">Ambient Computing and IoT Specialization</a><br/>
       <a href="/courses/bio" className="text-sm text-slate-300 hover:text-blue-500">Genomics and Bioinformatics Specialization</a>
+      <a href="/courses/auto" className="text-sm text-slate-300 hover:text-blue-500"> Network Programmability and Automation Specialization</a>
       <br/><br/>
       </p> 
   </div>

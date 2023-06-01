@@ -96,7 +96,7 @@ export default function Ai() {
             </div>{" "}
             <div className="px-5">
               <figure>
-                <Image
+                <img
                   className="w-full"
                   src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
                   alt="pic loading"
@@ -169,7 +169,7 @@ export default function Ai() {
             </div>
             <div className="px-5">
               <figure>
-                <Image
+                <img
                   className="w-full"
                   src="https://media.istockphoto.com/id/1161853610/photo/robot-hand-shake.jpg?s=612x612&w=0&k=20&c=SS_vVgcoRf7a_CMTbBB2srCHQ3krNhJVd0AY29Mbirw="
                   alt="pic loading"

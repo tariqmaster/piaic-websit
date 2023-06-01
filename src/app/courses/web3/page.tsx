@@ -87,9 +87,10 @@ export default function Web3() {
             </div>
             <div className="">
               <figure>
-                <Image
+                <img
                   src="https://media.istockphoto.com/id/1321058094/photo/3d-rendering-of-blockchain-on-technology-background.jpg?s=612x612&w=0&k=20&c=ibeGM68lyElESfXAEmsgYdVSPYhd94sbXSJIy31fboU="
                   alt="pic loading"
+                  
                 />
               </figure>
             </div>
@@ -328,7 +329,7 @@ export default function Web3() {
             </div>
             <div className="px-5 py-5">
               <figure>
-                <Image
+                <img
                   src="https://media.istockphoto.com/id/1397376354/vector/cryptocurrency-wallet-with-bitcoin-coins-which-fly-to-isometric-cellphone-with-metamask-logo.jpg?s=612x612&w=0&k=20&c=WFkhsmQa6OZvss5EmkjHrEGWEMMC54jyyAx53zV2cfI="
                   alt="pic loading"
                 />
@@ -419,8 +420,8 @@ export default function Web3() {
             </div>
             <div className="px-5 py-5">
               <figure>
-                <Image
-                  className="w-full"
+                <img
+                  className=""
                   src="https://media.istockphoto.com/id/1029186020/photo/smart-city-and-telecommunication-concept.jpg?s=612x612&w=0&k=20&c=UZGfRyXcCCTMRWNB8D2NvpCs_vguAe_Uo5eIoKYnfUY="
                   alt="pic loading"
                 />

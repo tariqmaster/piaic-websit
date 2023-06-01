@@ -65,7 +65,7 @@ Textbook: <br/>
             </div>
             <div className="px-5 py-5">
               <figure>
-                <Image
+                <img
                   className="w-full"
                   src="https://media.istockphoto.com/id/1029186020/photo/smart-city-and-telecommunication-concept.jpg?s=612x612&w=0&k=20&c=UZGfRyXcCCTMRWNB8D2NvpCs_vguAe_Uo5eIoKYnfUY="
                   alt="pic loading"

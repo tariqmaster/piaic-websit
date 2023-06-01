@@ -89,8 +89,7 @@ Cloud Development Kit for Terraform (CDKTF) allows you to use familiar programmi
             </div>
             <div className="px-5">
               <figure>
-                <Image
-                  className="w-full"
+                <img 
                   src="https://media.istockphoto.com/id/1201248671/photo/science-fiction-city-with-astronauts-and-a-terraforming-dome.webp?s=1024x1024&w=is&k=20&c=uZr7d_OdwdJjkGw4WXcyHuMVSGhCuITdzn-aZ98unHg="
                   alt="pic loading"
                 />

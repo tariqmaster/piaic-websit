@@ -80,7 +80,7 @@ export default function IoT() {
             </div>
             <div className="px-5">
               <figure>
-                <Image
+                <img
                   className="w-full"
                   src="https://media.istockphoto.com/id/1349338605/photo/futuristic-technology-retail-warehouse-worker-doing-inventory-walks-when-digitalization.jpg?s=612x612&w=0&k=20&c=gpQE3Cwcsc6205n1-HWZhsOwx2sVmCCJtewYcim8Xk0="
                   alt="pic loading"
@@ -185,7 +185,7 @@ export default function IoT() {
                 </div>
                 <div className="px-5">
                   <figure>
-                    <Image
+                    <img
                       className="w-full"
                       src="https://media.istockphoto.com/id/943787164/photo/3d-rendering-network-and-data-exchange-over-planet-earth-in-space-connection-lines-around.jpg?s=612x612&w=0&k=20&c=ghFVjrD_dM0u9CNcHEkoctmg27PXF5gLbf45QNxnrlM="
                       alt="pic loading"
@@ -196,7 +196,7 @@ export default function IoT() {
                     
              <div className="sm:col-start-1 px-5">
                 <figure>
-                  <Image
+                  <img
                     className="w-full"
                     src="https://media.istockphoto.com/id/869356832/photo/big-data-futuristic-visualization-abstract-illustration.jpg?s=612x612&w=0&k=20&c=MO9IIns53PYnSRR7_vkE7xXWqvEQL84WRL5UuiapihY="
                     alt="pic loading"
@@ -266,7 +266,7 @@ export default function IoT() {
               
               <div className=" py-5">
                 <figure>
-                  <Image
+                  <img
                     className="w-full"
                     src="https://media.istockphoto.com/id/1154032060/photo/the-cyborgs-fingertips-embedded-with-electronic-circuitry-grabbed-the-biochip-in-the.jpg?s=612x612&w=0&k=20&c=aGX8Wwe08BdpzjkSq3EjqRRMzHlAHa4vlnHHNx2_E2c="
                     alt="pic loading"
@@ -353,7 +353,7 @@ export default function IoT() {
 
               <div className=" px-5">
                 <figure>
-                  <Image
+                  <img
                     className="w-full"
                     src="https://media.istockphoto.com/id/1154031952/photo/the-cyborgs-fingertips-embedded-with-electronic-circuitry-capture-cells-and-molecules.jpg?s=612x612&w=0&k=20&c=rQGo2ZMKpNyo7QgxIft-fXJp88wAZZ7xObY9nbs2Wio="
                     alt="pic loading"

@@ -29,7 +29,7 @@ export default function Coreq1() {
             </div>
             <div className="py-5">
         <figure>
-          <Image
+          <img
             className="grid col-start-1 col-end-1 row-start-1 row-end-1 rounded-lg px-5"
             src="https://media.istockphoto.com/id/487754912/photo/type-met.webp?s=612x612&w=is&k=20&c=XpsH7th38nSKl--BUk8Dl6pd4MYRDSV0_PkJKvuuQQg="
             alt="pic loading"
@@ -41,7 +41,7 @@ export default function Coreq1() {
 <div className="sm:col-start-1 py-5">
      <h3 className="px-5">Course Outline:</h3> 
       <figure>
-          <Image
+          <img
             className="grid col-start-0 col-end-1 row-start-0 row-end-1 rounded-lg px-5"
             src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             alt="pic loading"
@@ -123,7 +123,7 @@ export default function Coreq1() {
           </div>
           <div className=" py-5"> 
       <figure>
-          <Image
+          <img
             className="grid col-start-0 col-end-1 row-start-0 row-end-1 rounded-lg px-5  w-full"
             src="https://media.istockphoto.com/id/1130769221/vector/smart-city-low-poly-wireframe-on-blue-background-city-future-abstract-or-metropolis.jpg?s=612x612&w=0&k=20&c=NJrfMoa1fiohitJfyZsyjn0PbA1JjbQ1hml-CZAOBoI="
             alt="pic loading"
@@ -244,7 +244,7 @@ export default function Coreq1() {
             <p  className="text-justify">TypeScript Professional Proficiency Quiz</p>
           <div>
           <figure>
-          <Image
+          <img
             className="grid col-start-0 col-end-1 row-start-0 row-end-1 rounded-lg px-5  w-full"
             src="https://media.istockphoto.com/id/492521900/vector/tall-and-skinny-bold-alphabet-numbers-and-symbols.jpg?s=612x612&w=0&k=20&c=RNm3VgYIOpwRJMunDSRPddERRO5-vfPYsV1Ae56CuGU="
             alt="pic loading"
@@ -370,7 +370,7 @@ export default function Coreq1() {
           </div>
           <div>
           <figure>
-          <Image
+          <img
             className="grid col-start-0 col-end-1 row-start-0 row-end-1 rounded-lg px-5  w-full"
             src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
             alt="pic loading"
