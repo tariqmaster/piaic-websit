@@ -76,7 +76,7 @@ export default function Footer(){
 
   </div>
   <div className="gapy-5 justify-center bg-blue-200 rounded-lg px-5 p-5">
-  <p className="text-black font-bold">Mobile # +92-300-2229256<br/>
+  <p className="text-black text-center font-bold items-center justify-center">Mobile # +92-300-2229256<br/>
   House # L-13 sector 11-L, North Karachi, Karachi, Pakistan.</p>
 
  </div>
