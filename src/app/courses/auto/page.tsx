@@ -1,5 +1,6 @@
 import Footer from "@/app/footer";
 import Navbar from "@/app/navbar";
+import Image from "next/image";
 
 export default function Auto() {
   return (
@@ -34,10 +35,10 @@ Textbook: <br/>
 
           <div className="px-5 py-5">
             <figure>
-              <img
+              <Image
                 className="w-full"
                 src="https://media.istockphoto.com/id/1346929942/photo/it-support-operator-working-at-the-server-room-in-an-office-building.jpg?s=612x612&w=0&k=20&c=mnJjc0_JfJEjtf-QuNycOPPo8A7UimECCffDoyfzsPo="
-                alt=""
+                alt="pic loading"
               />
             </figure>
           </div>
@@ -64,10 +65,10 @@ Textbook: <br/>
             </div>
             <div className="px-5 py-5">
               <figure>
-                <img
+                <Image
                   className="w-full"
                   src="https://media.istockphoto.com/id/1029186020/photo/smart-city-and-telecommunication-concept.jpg?s=612x612&w=0&k=20&c=UZGfRyXcCCTMRWNB8D2NvpCs_vguAe_Uo5eIoKYnfUY="
-                  alt=""
+                  alt="pic loading"
                 />
               </figure>
             </div>

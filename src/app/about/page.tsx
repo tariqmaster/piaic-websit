@@ -48,7 +48,7 @@ export default function Ai() {
       <div className="grid grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] px-5 shadow">
         <div className="px-5">
           <figure>
-            <Image src={Arifalvi} alt="" />
+            <Image src={Arifalvi} alt="Arif Alvi" />
           </figure>
         </div>
 
@@ -123,7 +123,7 @@ export default function Ai() {
       <div className="grid grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] px-5 shadow">
         <div className="px-5">
           <figure>
-            <Image src={Ziakhan} alt="" />
+            <Image src={Ziakhan} alt="Zia Khan" />
           </figure>
         </div>
         <div className="px-5">
@@ -201,7 +201,7 @@ export default function Ai() {
       <div className="grid grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] px-5 shadow">
         <div className="px-5 w-full">
           <figure className="w-full">
-            <Image src={Adilaltaf} alt="" />
+            <Image src={Adilaltaf} alt="Adil Altaf" />
           </figure>
           <div></div>
         </div>
@@ -263,7 +263,7 @@ export default function Ai() {
       <div className="grid grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] px-5 shadow">
         <div className="px-5">
           <figure>
-            <Image src={Hirakhan} alt="" />
+            <Image src={Hirakhan} alt="Hira Khan" />
           </figure>
         </div>
         <div className="px-5">

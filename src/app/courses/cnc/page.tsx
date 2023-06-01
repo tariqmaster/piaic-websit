@@ -1,5 +1,6 @@
 import Footer from "@/app/footer";
 import Navbar from "@/app/navbar";
+import Image from "next/image";
 
 export default function CNC() {
   return (
@@ -47,10 +48,10 @@ Kubernetes is an open-source system for automating the deployment, scaling, and 
            
             <div className="px-5">
               <figure>
-                <img
+                <Image
                   className="w-full"
                   src="https://images.unsplash.com/photo-1667372459567-3853510dd5ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
-                  alt=""
+                  alt="pic loading"
                 />
               </figure>
             </div>
@@ -88,10 +89,10 @@ Cloud Development Kit for Terraform (CDKTF) allows you to use familiar programmi
             </div>
             <div className="px-5">
               <figure>
-                <img
+                <Image
                   className="w-full"
                   src="https://media.istockphoto.com/id/1201248671/photo/science-fiction-city-with-astronauts-and-a-terraforming-dome.webp?s=1024x1024&w=is&k=20&c=uZr7d_OdwdJjkGw4WXcyHuMVSGhCuITdzn-aZ98unHg="
-                  alt=""
+                  alt="pic loading"
                 />
               </figure>
             </div>

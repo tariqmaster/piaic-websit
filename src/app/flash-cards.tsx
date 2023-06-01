@@ -8,7 +8,7 @@ export default function Cards() {
       <div className="item" id="speicialized-courses">
       <a href="/courses/web3"><img
           src="https://images.unsplash.com/photo-1642403711737-8e89f8d92b24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
-          alt=""
+          alt="pic loading"
         /></a>
         <div className="desc">
           <a href="/courses/web3">
@@ -38,7 +38,7 @@ export default function Cards() {
       <div className="item">
       <a href="/courses/ai"> <img
           src="https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          alt=""
+          alt="pic loading"
         />
         </a>
         <div className="desc">
@@ -63,7 +63,7 @@ export default function Cards() {
       <div className="item">
       <a href="/courses/cnc"> <img
           src="https://images.unsplash.com/photo-1644088379091-d574269d422f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1093&q=80"
-          alt=""
+          alt="pic loading"
         />
         </a>
         <div className="desc">
@@ -89,7 +89,7 @@ export default function Cards() {
       <a href="/courses/iot">  
       <img
           src="https://images.unsplash.com/photo-1649959149294-d0bbf3d4b9d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80"
-          alt=""
+          alt="pic loading"
         />
         </a>
         <div className="desc">
@@ -114,7 +114,7 @@ export default function Cards() {
       <div className="item">
         <a href="/courses/bio"><img
           src="https://plus.unsplash.com/premium_photo-1676029883697-159cfaf67f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-          alt=""
+          alt="pic loading"
         />
         </a>
         <div className="desc">
@@ -135,7 +135,7 @@ export default function Cards() {
       <div className="item">
       <a href="/courses/auto"><img
           src="https://plus.unsplash.com/premium_photo-1677094310899-02303289cadf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
-          alt=""
+          alt="pic loading"
         />
         </a>
         <div className="desc">

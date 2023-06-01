@@ -9,7 +9,7 @@ export default function Core() {
           <Image
             className="grid col-start-1 col-end-1 row-start-1 row-end-1 rounded-lg px-5"
             src={genpic}
-            alt=""
+            alt="pic loading"
           />
         </figure>
         </a>

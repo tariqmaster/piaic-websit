@@ -1,5 +1,6 @@
 import Footer from "@/app/footer";
 import Navbar from "@/app/navbar";
+import Image from "next/image";
 
 export default function Ai() {
   return (
@@ -95,10 +96,10 @@ export default function Ai() {
             </div>{" "}
             <div className="px-5">
               <figure>
-                <img
+                <Image
                   className="w-full"
                   src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
-                  alt=""
+                  alt="pic loading"
                 />
               </figure>
             </div>
@@ -168,10 +169,10 @@ export default function Ai() {
             </div>
             <div className="px-5">
               <figure>
-                <img
+                <Image
                   className="w-full"
                   src="https://media.istockphoto.com/id/1161853610/photo/robot-hand-shake.jpg?s=612x612&w=0&k=20&c=SS_vVgcoRf7a_CMTbBB2srCHQ3krNhJVd0AY29Mbirw="
-                  alt=""
+                  alt="pic loading"
                 />
               </figure>
             </div>

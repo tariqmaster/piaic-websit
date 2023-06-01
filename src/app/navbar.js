@@ -29,7 +29,7 @@ function MobileNav({open, setOpen}) {
 
             <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20"> {/*PANAVERSE DAO container*/}
                 
-                <a className="text-xl font-semibold" href="/"><Image className='h-10 w-20' src={logo} alt="" /></a>
+                <a className="text-xl font-semibold" href="/"><Image className='h-10 w-20' src={logo} alt="pic loading" /></a>
             </div>
             <div className="flex flex-col ml-4">
             <a className="text-xl font-medium my-4" href="/#" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
@@ -60,7 +60,7 @@ export default function Navbar() {
                 <nav className="fixed z-10 opacity-80 w-full flex filter drop-shadow-md bg-white px-4 py-4 h-20 p-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="p-5 w-3/12 flex items-center">
-                <a className="text-2xl font-semibold" href="/"><Image className='h-10 w-20' src={logo} alt="" /></a>
+                <a className="text-2xl font-semibold" href="/"><Image className='h-10 w-20' src={logo} alt="pic loading" /></a>
             </div>
 
 

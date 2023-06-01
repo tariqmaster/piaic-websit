@@ -24,7 +24,7 @@ export default function Specialized() {
           <Image
             className="grid col-start-1 col-end-1 row-start-1 row-end-1 rounded-lg px-5 py-5"
             src={splpic}
-            alt=""
+            alt="pic loading"
           />
         </figure>
         </a>
