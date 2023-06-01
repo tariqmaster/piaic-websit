@@ -68,14 +68,14 @@ export default function Footer(){
 
 
 <div className="px-10 py-5">
-  <div className=" bg-blue-500 rounded-lg px-10 content-center">
-  <p className="text-black font-bold flex items-start justify-center py-5">© Copyright and Design by <br/>Muhammad Tariq PIAIC-136132</p>
+  <div className=" bg-blue-500 rounded-lg px-5 content-center">
+  <p className="text-black font-bold flex items-center justify-center py-5">© Copyright and Design by <br/>Muhammad Tariq PIAIC-136132</p>
 
   </div>
   <div className="py-5">
 
   </div>
-  <div className="gapy-5 content-center bg-blue-200 rounded-lg order-last px-10 p-5">
+  <div className="gapy-5 justify-center bg-blue-200 rounded-lg px-5 p-5">
   <p className="text-black font-bold">Mobile # +92-300-2229256<br/>
   House # L-13 sector 11-L, North Karachi, Karachi, Pakistan.</p>
 
